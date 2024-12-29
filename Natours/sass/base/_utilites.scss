@@ -1,0 +1,33 @@
+/*partial _utilites.scss file*/
+.u-center-text {
+    text-align: center !important;
+}
+
+.u-mb-small {
+    margin-bottom: 1.5rem !important;
+}
+
+.u-mb-medium {
+    margin-bottom: 4rem !important;
+
+    @include media-breakpoint(tab-port) {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.u-mb-large {
+    margin-bottom: 8rem !important;
+
+    @include media-breakpoint(tab-port) {
+        margin-bottom: 6rem !important;
+    }
+}
+
+.u-mt-large {
+    margin-top: 8rem !important;
+}
+
+.u-mt-xlarge {
+    margin-top: 10rem !important;
+
+}

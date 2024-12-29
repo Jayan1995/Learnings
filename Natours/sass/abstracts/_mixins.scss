@@ -1,0 +1,77 @@
+/*partial _mixins.scss file*/
+
+@mixin clearfix {
+    &::after {
+        content: ""; // empty content
+        display: table; // display as table
+        clear: both; // clear both sides of the float
+    }
+}
+
+@mixin cover-background($color-1, $color-2) {
+    background-image: linear-gradient(to right, $color-1, $color-2);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@mixin abscenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// Media Query Mixins Manager - Desktop First Approach
+/*
+    0    -  600px : Phone,
+    600  -  900px : Tablet portrait,
+    900  - 1200px : Tablet landscape,
+    1200 - 1800px : Desktop - is where our normal styles will apply,
+    1800 -   +    : Large desktop
+*/
+
+/*
+$breakpoint - phone, tab-port, tab-land, large-desktop
+1em = 16px
+em works better than px/rem for media queries -> based on research and expirement done by many developers
+*/
+@mixin media-breakpoint($breakpoint) {
+    /* 
+        This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
+        i.e. from large-desktop to phone         
+    */
+
+    @if($breakpoint ==phone) {
+
+        // 600px / 16px = 37.5rem
+        @media (max-width: 37.5em) {
+            @content;
+        }
+    }
+
+    @if($breakpoint ==tab-port) {
+
+        // 900px / 16px = 56.25rem
+        @media (max-width: 56.25em) {
+            @content;
+        }
+    }
+
+    @if($breakpoint ==tab-land) {
+
+        // 1200px / 16px = 75rem
+        @media (max-width: 75em) {
+            @content;
+        }
+    }
+
+    @if($breakpoint ==large-desktop) {
+
+        // 1800px / 16px = 112.5rem
+        @media (min-width: 112.5em) {
+            @content;
+        }
+    }
+}

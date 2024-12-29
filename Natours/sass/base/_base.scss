@@ -1,0 +1,45 @@
+/* Global Reset*/
+/*partial _.scss file*/
+*,
+*::after,
+*::before {
+    margin: 0; // reset margin
+    padding: 0; // reset padding
+    box-sizing: inherit; // box-sizing: border-box
+}
+
+html {
+
+    /* Note: Browser default font-size is 16px   */
+
+    /* 1rem = 10px, 10px/16px = 62.5% 
+     This set the default font-size to 10px,
+     which is easier to work with when converting px to rem units .i.e 16px = 1.6rem
+    */
+    font-size: 62.5%;
+
+    @include media-breakpoint(tab-land) {
+        // width 1200px
+        font-size: 56.25%; // 1rem = 9px (9px/16px = 56.25%)
+    }
+
+    @include media-breakpoint(tab-port) {
+        // width 900px
+        font-size: 50%; // 1 rem = 8 px (8px/16px = 50%)
+    }
+
+    @include media-breakpoint(large-desktop) {
+        // width >  1800px
+        font-size: 75%; // 1rem= 12px (12px/16px = 75%)
+    }
+}
+
+body {
+    box-sizing: border-box;
+    padding: 3rem;
+
+    @include media-breakpoint(tab-port) {
+        padding: 0;
+    }
+
+}
