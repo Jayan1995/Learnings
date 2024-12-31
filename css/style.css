@@ -69,15 +69,19 @@ html {
   font-size: 62.5%;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
+  */
+  /* 
+      This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 75em) {
@@ -88,6 +92,11 @@ html {
 @media (max-width: 56.25em) {
   html {
     font-size: 50%;
+  }
+}
+@media (max-width: 22.5em) {
+  html {
+    font-size: 45%;
   }
 }
 @media (min-width: 112.5em) {
@@ -101,7 +110,7 @@ body {
   padding: 3rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -134,7 +143,7 @@ body {
   animation-timing-function: ease-out;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 37.5em) {
@@ -151,7 +160,7 @@ body {
   animation: moveInRight 1s ease-out;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 37.5em) {
@@ -173,11 +182,11 @@ body {
   transition: all 0.2s;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -221,7 +230,7 @@ body {
   margin-bottom: 4rem !important;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -234,7 +243,7 @@ body {
   margin-bottom: 8rem !important;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -358,7 +367,7 @@ body {
   outline-offset: 2rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -374,7 +383,7 @@ body {
   top: -2rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -388,7 +397,7 @@ body {
   top: 2rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -403,7 +412,7 @@ body {
   top: 10rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -433,7 +442,7 @@ body {
   transition: transform 0.3s;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -451,7 +460,7 @@ body {
   color: transparent;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -470,7 +479,7 @@ body {
   height: 52rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 .card__side {
@@ -634,11 +643,11 @@ body {
   transform: skewX(-12deg);
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -665,7 +674,7 @@ body {
   position: relative;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 37.5em) {
@@ -682,7 +691,7 @@ body {
   transform: skewX(12deg);
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 37.5em) {
@@ -729,7 +738,7 @@ body {
   transition: all 0.3s;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 .form__input:focus {
@@ -771,7 +780,7 @@ body {
   display: inline-block;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -832,7 +841,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75%;
-  height: 50rem;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
   border-radius: 3px;
@@ -845,12 +853,30 @@ body {
 .popup__left {
   width: 33.333333%;
   display: table-cell;
+  /* 
+      This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
+      i.e. from large-desktop to phone                   
+  */
+}
+@media (max-width: 56.25em) {
+  .popup__left {
+    display: none;
+  }
 }
 .popup__right {
   width: 66.666667%;
   display: table-cell;
   vertical-align: middle;
   padding: 3rem 5rem;
+  /* 
+      This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
+      i.e. from large-desktop to phone                   
+  */
+}
+@media (max-width: 56.25em) {
+  .popup__right {
+    width: 100%;
+  }
 }
 .popup__img {
   display: block;
@@ -904,7 +930,7 @@ body {
   clip-path: polygon(0% 0%, 100% 0%, 100% 75vh, 0% 100%);
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 37.5em) {
@@ -934,7 +960,7 @@ body {
   margin: 0 auto;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* If the row is not the last child */
   /* Note: ^ = start with, * = contains, $ = ends with */
@@ -949,7 +975,7 @@ body {
   margin-bottom: 8rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -961,14 +987,14 @@ body {
   float: left;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 .row [class^=col-]:not(:last-child) {
   margin-right: 6rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1013,7 +1039,7 @@ body {
   color: #f7f7f7;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1026,7 +1052,7 @@ body {
   margin-bottom: 8rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1044,7 +1070,7 @@ body {
   display: inline-block;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1082,7 +1108,7 @@ body {
   float: right;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1109,11 +1135,11 @@ body {
   cursor: pointer;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1140,11 +1166,11 @@ body {
   transition: transform 0.8s cubic-bezier(0.45, 0, 0.55, 1);
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1191,6 +1217,15 @@ body {
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 230%;
   transition: all 0.4s;
+  /* 
+      This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
+      i.e. from large-desktop to phone                   
+  */
+}
+@media (max-width: 22.5em) {
+  .navigation__link:link, .navigation__link:visited {
+    font-size: 1.5rem;
+  }
 }
 .navigation__link:link span, .navigation__link:visited span {
   margin-right: 2rem;
@@ -1255,7 +1290,7 @@ body {
   margin-top: -20vh;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1272,7 +1307,7 @@ body {
   margin-top: -15rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 .section-features > * {
@@ -1290,7 +1325,7 @@ body {
   margin-top: -13rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1304,7 +1339,7 @@ body {
   padding: 15rem 0;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1318,7 +1353,7 @@ body {
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 56.25em) {
@@ -1334,11 +1369,11 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 75em) {
@@ -1357,11 +1392,11 @@ body {
   padding: 6rem;
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
   /* 
       This is Desktop first approach so the order of declartion is higher screen resolution to lower ones 
-      i.e. from large-desktop to phone         
+      i.e. from large-desktop to phone                   
   */
 }
 @media (max-width: 75em) {
