@@ -94,7 +94,7 @@ html {
     font-size: 50%;
   }
 }
-@media (max-width: 24.37em) {
+@media (max-width: 25em) {
   html {
     font-size: 45%;
   }
@@ -1222,7 +1222,7 @@ body {
       i.e. from large-desktop to phone                   
   */
 }
-@media (max-width: 24.37em) {
+@media (max-width: 25em) {
   .navigation__link:link, .navigation__link:visited {
     font-size: 1.5rem;
   }
