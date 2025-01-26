@@ -1,0 +1,75 @@
+/* declared custom css property like variables in scss */
+:root {
+    --color-primary: #eb2f64;
+    --color-primary-light: #FF3366;
+    --color-primary-dark: #BA265D;
+
+    --color-white: #fff;
+
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+
+
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+    --shadow-light: 0 1rem 4rem rgba(0, 0, 0, .25);
+    --shadow-light-1: 0 2rem 5rem rgba(0, 0, 0, .06);
+
+    --line: 1px solid var(--color-grey-light-2);
+}
+
+/* em works better than px/rem for media queries -> based on research and expirement done by many developers */
+$bp-xl: 75em;       // 1200px   -> [ 1200 / 16 (default browser font size) ] = 75
+$bp-l: 68.75em;     // 1100px
+$bp-m: 56.25em;     //  900px
+$bp-s: 37.5em;      //  600px
+$bp-xs: 31.25em;     //  500px
+
+/* 
+    global reset
+    {} is known as decelartion block 
+    */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    In CSS, the box-sizing property defines how the width and height of an element are calculated. By default, the box-sizing 
+    property is set to content-box, which means that the width and height of an element only include the content,  and any padding 
+    or border is added to the outside of the box. This can sometimes lead to unexpected results when trying to size elements.
+    Setting box-sizing to border-box changes this behavior so that the width and height of an element include the content, padding,
+    and border. This makes it easier to manage the size of elements, as the total size of the element will be consistent and predictable.
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%  Note: browser default font-size is 16px
+
+    @media only screen and (max-width:$bp-l) {
+        font-size: 50%; // 8px   i.e. 8/16 = (.5) * 100 ->   (50%)
+    }
+}
+
+body {
+    background-color: #eb2f64;
+    font-family: 'open-sans', sans-serif;
+    color: var(--color-grey-dark-2);
+    font-weight: 400;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
